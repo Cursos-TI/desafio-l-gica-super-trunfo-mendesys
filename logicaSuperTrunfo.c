@@ -120,7 +120,7 @@ int main() {
     //Menu interativo e dinâmico para que o usuário possa escolher um segundo atributo para comparar
     switch (primeiroAtributo) {
         case 1:
-        printf("\n   Escolha outro atributo para comparar   \n");
+        printf("\n   Escolha outro atributo   \n");
         printf("2 - Área\n");
         printf("3 - PIB\n");
         printf("4 - Pontos Turísticos\n");
@@ -131,45 +131,45 @@ int main() {
         break;
 
         case 2:
-        printf("\n   Escolha outro atributo para comparar   \n");
+        printf("\n   Escolha outro atributo   \n");
         printf("1 - População\n");
         printf("3 - PIB\n");
         printf("4 - Pontos Turísticos\n");
         printf("5 - Densidade Populacional\n");
-        printf("Escolha uma opção: \n");
+        printf("Escolha: \n");
         scanf("%d", &segundoAtributo);
         printf("\n");
         break;
 
         case 3:
-        printf("\n   Escolha outro atributo para comparar   \n");
+        printf("\n   Escolha outro atributo   \n");
         printf("1 - População\n");
         printf("2 - Área\n");
         printf("4 - Pontos Turísticos\n");
         printf("5 - Densidade Populacional\n");
-        printf("Escolha uma opção: \n");
+        printf("Escolha: \n");
         scanf("%d", &segundoAtributo);
         printf("\n");
         break;
 
         case 4:
-        printf("\n   Escolha outro atributo para comparar   \n");
+        printf("\n   Escolha outro atributo   \n");
         printf("1 - População\n");
         printf("2 - Área\n");
         printf("3 - PIB\n");
         printf("5 - Densidade Populacional\n");
-        printf("Escolha uma opção: \n");
+        printf("Escolha: \n");
         scanf("%d", &segundoAtributo);
         printf("\n");
         break;
 
         case 5:
-        printf("\n   Escolha outro atributo para comparar   \n");
+        printf("\n   Escolha outro atributo   \n");
         printf("1 - População\n");
         printf("2 - Área\n");
         printf("3 - PIB\n");
         printf("4 - Pontos Turísticos\n");
-        printf("Escolha uma opção: \n");
+        printf("Escolha: \n");
         scanf("%d", &segundoAtributo);
         printf("\n");
         break;
@@ -184,7 +184,7 @@ int main() {
 
     
     if (primeiroAtributo == segundoAtributo) {
-        printf("\nVocê escolheu o mesmo atributo!. Tente novamente...\n");
+        printf("\nVocê escolheu o mesmo atributo! Tente novamente...\n");
         printf("\n");
         return 0;
     } else if (primeiroAtributo == 1) {
@@ -298,7 +298,7 @@ int main() {
 
 
     if (primeiroAtributo == segundoAtributo) {
-        printf("\nVocê escolheu o mesmo atributo!. Tente novamente...\n");
+        printf("\nVocê escolheu o mesmo atributo! Tente novamente...\n");
         printf("\n");
         return 0;
     } else if (primeiroAtributo == 2) {
@@ -410,7 +410,7 @@ int main() {
 
 
     if (primeiroAtributo == segundoAtributo) {
-        printf("\nVocê escolheu o mesmo atributo!. Tente novamente...\n");
+        printf("\nVocê escolheu o mesmo atributo! Tente novamente...\n");
         printf("\n");
         return 0;
     } else if (primeiroAtributo == 3) {
@@ -522,7 +522,7 @@ int main() {
 
 
     if (primeiroAtributo == segundoAtributo) {
-        printf("\nVocê escolheu o mesmo atributo!. Tente novamente...\n");
+        printf("\nVocê escolheu o mesmo atributo! Tente novamente...\n");
         printf("\n");
         return 0;
     } else if (primeiroAtributo == 4) {
@@ -634,7 +634,7 @@ int main() {
 
 
     if (primeiroAtributo == segundoAtributo) {
-        printf("\nVocê escolheu o mesmo atributo!. Tente novamente...\n");
+        printf("\nVocê escolheu o mesmo atributo! Tente novamente...\n");
         printf("\n");
         return 0;
     } else if (primeiroAtributo == 5) {
